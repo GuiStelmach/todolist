@@ -21,7 +21,7 @@ Este é um aplicativo de lista de tarefas (Todo List) simples, desenvolvido com 
 
 ## Estrutura de Arquivos
 
-    ```toDolist
+    ```bash
     ├── index.html       # Estrutura HTML do aplicativo com links para Tailwind CSS e script.js
     └── script.js        # Lógica de manipulação das tarefas
     ```
@@ -31,7 +31,7 @@ Este é um aplicativo de lista de tarefas (Todo List) simples, desenvolvido com 
 - **Clone este repositório:**
 
     ```bash
-    git clone https://github.com/seu-usuario/todo-list-app.git
+    git clone https://github.com/GuiStelmach/todolist
     ```
 
 - **Abra o arquivo `index.html` em um navegador.**
@@ -40,7 +40,8 @@ Este é um aplicativo de lista de tarefas (Todo List) simples, desenvolvido com 
 
 O JavaScript gerencia as principais funcionalidades do app, como adicionar, editar, concluir e excluir tarefas. Abaixo está uma parte essencial do código para adicionar uma tarefa:
 
-    ```script.js
+    ```bash
+    
     function addTodoToList(todo) {
         const newTodo = {
             id: Date.now(),
