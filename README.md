@@ -21,10 +21,10 @@ Este é um aplicativo de lista de tarefas (Todo List) simples, desenvolvido com 
 
 ## Estrutura de Arquivos
 
-    ```bash
+    
     ├── index.html       # Estrutura HTML do aplicativo com links para Tailwind CSS e script.js
     └── script.js        # Lógica de manipulação das tarefas
-    ```
+   
 
 ## Como Executar o Projeto
 
@@ -40,7 +40,6 @@ Este é um aplicativo de lista de tarefas (Todo List) simples, desenvolvido com 
 
 O JavaScript gerencia as principais funcionalidades do app, como adicionar, editar, concluir e excluir tarefas. Abaixo está uma parte essencial do código para adicionar uma tarefa:
 
-    ```bash
     
     function addTodoToList(todo) {
         const newTodo = {
@@ -52,7 +51,6 @@ O JavaScript gerencia as principais funcionalidades do app, como adicionar, edit
         updateLS();
         addTodo(newTodo);
     }
-    ```
 
 ## Uso do `localStorage`
 
