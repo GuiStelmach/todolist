@@ -3,7 +3,7 @@
 
 Este é um aplicativo de lista de tarefas (Todo List) simples, desenvolvido com HTML, JavaScript e estilizado com a biblioteca **Tailwind CSS**. O aplicativo permite aos usuários adicionar, editar, marcar como concluídas e excluir tarefas, com armazenamento local para persistência de dados entre sessões.
 
-### Página: 
+### Página: https://guistelmach.github.io/todolist/
 
 ## Funcionalidades
 
